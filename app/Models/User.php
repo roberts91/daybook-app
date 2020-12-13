@@ -16,7 +16,7 @@ class User extends Authenticatable
     use HasFactory;
     use HasProfilePhoto;
     use Notifiable;
-    use TwoFactorAuthenticatable;
+    //use TwoFactorAuthenticatable;
 
     /**
      * The attributes that are mass assignable.
@@ -58,4 +58,12 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function journals()
+    {
+        return $this->hasMany(Journal::class);
+    }
 }
