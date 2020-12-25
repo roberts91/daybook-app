@@ -24,6 +24,7 @@
     "dependencies": {
         "@tailwindcss/forms": "^0.2.1",
         "autoprefixer": "^10.1.0",
+        "laravel-mix-compress-images": "^1.0.4",
         "postcss": "^8.2.1"
     }
 }

@@ -1,4 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/images/daybook-logo-200x200.png": "/images/daybook-logo-200x200.png",
+    "/images/daybook-logo-80x80.png": "/images/daybook-logo-80x80.png"
 }
